@@ -1,20 +1,16 @@
 int main(int argc, char** argv) {
-	char nome[30];
-	char endereco[30];
-	int idade;
+	float nota1;
+	float nota2;
+	float media;
 	
-	printf("Nome \n");
-	scanf("%s", &nome);
+	printf("Nota1 \n");
+	scanf("%f", &nota1);
 	
-	printf("Endereco \n");
-	scanf("%s", &endereco);
+	printf("Nota2 \n");
+	scanf("%f", &nota2);
 	
-	printf("Idade \n");
-	scanf("%d", &idade);
-	
-	printf("\n Digite seu nome: %s", nome);
-	printf("\n Digite seu endereco: %s", endereco);
-	printf("\n Digite sua idade: %d", idade);
+	media = (nota1 + nota2) /2;
+	printf("\n Media = %.1f", media);
 		
 	
 	return 0;
